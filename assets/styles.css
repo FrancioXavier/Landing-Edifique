@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 2rem;
+    text-decoration: none;
+
+}
+
+.navbar .logo {
+    margin-right: 6rem;
+    height: 10vh;
+}
+
+.navbar .logo:hover {
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+.navbar {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+
+.navbar ul li a:hover{
+    color: #FF5209;
+}
+
+.content {
+    background-image: url(./img/background-geral.svg);
+    background-size: cover;
+    border: 0;
+}
+
+.txt-1{
+    color: #FF5209;
+}
+
+.main-content-home {
+    border: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.main-content-2 {
+    border: 0;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.texts {
+    font-size: 2.25rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.subtexts {
+    width: 25rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.subtexts h3{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    margin-bottom: 25rem;
+}
